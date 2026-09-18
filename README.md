@@ -11,7 +11,7 @@ Professional, responsive portfolio for **Siva Ganesh Vanukuru**, a final-year Co
 ## Notes
 - GitHub profile is connected to the real profile URL.
 - LinkedIn is intentionally left as a placeholder until the profile URL is provided.
-- Resume download is intentionally not linked to a non-existent file. Add the actual PDF under `assets/resume.pdf` when ready and connect the button.
+- Resume buttons are connected to `resumeSG.pdf`. Upload the supplied resume PDF to the repository root with that exact filename.
 - Content is kept aligned with the supplied portfolio specification and avoids invented metrics, testimonials, employers, or technologies.
 
 ## Local preview
