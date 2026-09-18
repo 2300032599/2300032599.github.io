@@ -11,7 +11,7 @@ Professional, responsive portfolio for **Siva Ganesh Vanukuru**, a final-year Co
 ## Notes
 - GitHub profile is connected to the real profile URL.
 - LinkedIn is connected to the supplied profile URL.
-- Resume buttons are connected to `resumeSG.pdf`. Upload the supplied resume PDF to the repository root with that exact filename.
+- Resume buttons open the hosted `resume.html` page, which can be printed or saved as PDF from the browser.
 - Content is kept aligned with the supplied portfolio specification and avoids invented metrics, testimonials, employers, or technologies.
 
 ## Local preview
