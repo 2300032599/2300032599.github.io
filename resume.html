@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume — Siva Ganesh Vanukuru, Computer Science undergraduate focused on Java backend development and cloud technologies.">
+  <title>Siva Ganesh Vanukuru | Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .resume-page{max-width:900px;margin:0 auto;padding:48px 0 80px}
+    .resume-header{display:flex;justify-content:space-between;gap:30px;align-items:flex-start;padding-bottom:28px;border-bottom:1px solid var(--line)}
+    .resume-header h1{font-size:clamp(2.5rem,6vw,4.5rem);line-height:1;margin:0 0 10px;letter-spacing:-.06em}
+    .resume-header p{margin:0;color:var(--muted)}
+    .resume-contact{display:flex;flex-direction:column;gap:7px;text-align:right;font-size:.9rem}
+    .resume-contact a{color:var(--accent)}
+    .resume-section{padding:28px 0;border-bottom:1px solid var(--line)}
+    .resume-section h2{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0 0 16px}
+    .resume-section h3{margin:0 0 4px;font-size:1.1rem}
+    .resume-section p{margin:5px 0;color:var(--muted)}
+    .resume-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    .resume-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+    .print-only{display:none}
+    @media(max-width:700px){
+      .resume-page{padding:28px 0 60px}
+      .resume-header{flex-direction:column}
+      .resume-contact{text-align:left}
+      .resume-grid{grid-template-columns:1fr}
+    }
+    @media print{
+      body{background:#fff;color:#111}
+      .site-header,.resume-actions,.footer{display:none!important}
+      .resume-page{max-width:none;padding:0}
+      .resume-section{border-color:#ccc}
+      .resume-section p,.resume-header p{color:#333}
+      .resume-section h2{color:#174ea6}
+      .resume-contact a{color:#174ea6}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Resume navigation">
+      <a class="brand" href="index.html" aria-label="Back to portfolio">SG<span>.</span></a>
+      <a class="nav-cta" href="index.html">Back to Portfolio</a>
+    </nav>
+  </header>
+
+  <main class="container resume-page">
+    <div class="resume-header">
+      <div>
+        <p class="eyebrow">COMPUTER SCIENCE UNDERGRADUATE</p>
+        <h1>Siva Ganesh Vanukuru</h1>
+        <p>Java Backend Development · Cloud Technologies · AWS</p>
+      </div>
+      <div class="resume-contact">
+        <a href="mailto:sivaganesh19190@gmail.com">sivaganesh19190@gmail.com</a>
+        <a href="tel:+919908754878">+91 99087 54878</a>
+        <a href="https://github.com/2300032599" target="_blank" rel="noopener noreferrer">github.com/2300032599</a>
+        <a href="https://www.linkedin.com/in/vanukuru-siva-ganesh-0585ab351/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <span>Vijayawada, Andhra Pradesh</span>
+      </div>
+    </div>
+
+    <div class="resume-actions">
+      <button class="button primary" type="button" onclick="window.print()">Print / Save as PDF</button>
+      <a class="button secondary" href="index.html">Back to Portfolio</a>
+    </div>
+
+    <section class="resume-section">
+      <h2>Profile</h2>
+      <p>Final-year B.Tech Computer Science undergraduate at KL University focused on Java, backend development, SQL, and cloud technologies. Interested in building reliable backend systems and strengthening skills in scalable system design, AWS, CI/CD, and Linux.</p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Technical Skills</h2>
+      <div class="resume-grid">
+        <div><h3>Languages</h3><p>Java, C, SQL</p></div>
+        <div><h3>Backend</h3><p>Spring Boot, RESTful APIs, MySQL, OOP, DBMS</p></div>
+        <div><h3>Cloud</h3><p>AWS, Cloud Architecture, Virtualization</p></div>
+        <div><h3>Tools</h3><p>Git, GitHub, Docker, CI/CD, Linux, Shell Scripting Basics, Postman</p></div>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Projects</h2>
+      <h3>Secure File Sharing System</h3>
+      <p>React + Spring Boot application using RESTful APIs for secure file-sharing workflows, including PassShare and Nearby Share flows. Worked on backend architecture, file-sharing functionality, and responsive frontend development.</p>
+      <h3 style="margin-top:18px">QuizBuilder — Automated Quiz Management System</h3>
+      <p>ReactJS + Spring Boot + MySQL system for quiz creation, timed assessments, automated evaluation, result generation, role-based interfaces, dashboards, and email notifications.</p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Experience</h2>
+      <h3>Cloud Computing Intern — AICTE Eduskills Virtual Internship</h3>
+      <p>2024 · Virtual Internship</p>
+      <p>Explored cloud computing fundamentals, relational databases, scalable infrastructure concepts, guided practical tasks, and industry-oriented development workflows.</p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Certification</h2>
+      <h3>NPTEL — Cloud Computing</h3>
+      <p>2025 · Elite Certification</p>
+      <p>Covered cloud architecture, virtualization, cloud service models, distributed systems, and scalable cloud infrastructure concepts.</p>
+    </section>
+
+    <section class="resume-section">
+      <h2>Education</h2>
+      <h3>B.Tech — Computer Science & Engineering</h3>
+      <p>KL University, Andhra Pradesh · 2023–2027 · CGPA 8.48</p>
+      <h3 style="margin-top:16px">Intermediate</h3>
+      <p>Sri Chaitanya Junior College, Gudivada · 2023 · 77.3%</p>
+      <h3 style="margin-top:16px">Class X</h3>
+      <p>Vidhyalaya High School, Gudivada · 2021 · 100%</p>
+    </section>
+  </main>
+</body>
+</html>
